@@ -1,8 +1,8 @@
 function Header() {
      return (
           <header>
-               <h1>I am Header</h1>
-               <p>I am para</p>
+               <h1>NeiDan Music Production</h1>
+               <p>Chilled Psy Prog</p>
           </header>
      );
 }
