@@ -4,11 +4,11 @@ import songsData from "./songsData";
 
 function App() {
     const mySongs = songsData.map((song) => {
-        console.log(song.name);
-        return <Songs key={song.id} name={song.name} img={song.img} iframeSrc={song.iframeSrc} />;
+        //console.log(song);
+        return <Songs key={song.id} {...song}/>;
     });
 
-    //console.log(songsData)
+    console.log(mySongs)
     return (
         <main>
             <Header />

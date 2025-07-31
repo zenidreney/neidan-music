@@ -2,15 +2,18 @@ function Songs(props) {
     console.log(props)
     return (
         <article>
+           
             <img src={props.img} />
-            <h2>{props.name}</h2>
-
+            <div>
+                <h2>{props.name}</h2>
+                <p>{props.text} </p>
+            </div>
             <iframe
-            
                 src={props.iframeSrc}
                 seamless>
-                <a href="https://neidanmusicproduction.bandcamp.com/track/enigmatic-ocean">Enigmatic Ocean by NeiDan</a>
+                <a href={props.iframeHref}>{props.name} </a>
             </iframe>
+            
         </article>
     );
 }
