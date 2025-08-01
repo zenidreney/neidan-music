@@ -17,7 +17,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     align-items: center;
     padding: 1em;
   
@@ -44,12 +44,12 @@ article {
     
     border-radius: 13px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
 }
 
 article > img {
     width: 100%;
     max-width: 350px;
-    border-top-left-radius: 13px;
 }
 
 article > div {
@@ -65,8 +65,21 @@ article h2 {
 
 article p {
     font-family: Comic Neue, cursive;
+    margin-bottom: 0.5em;
 }
 
+.genres {
+    color: #262626;
+    font-weight: 600;
+    font-size: 0.85rem;
+    font-family: Syne;
+}
+
+.genres > span {
+    font-weight: 300;
+    font-style: italic;
+    
+}
 
 
 iframe {
@@ -75,7 +88,7 @@ iframe {
     max-width: 350px;
     height: 42px;
     border-radius: 0 0 0 13px;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     
 }
 
