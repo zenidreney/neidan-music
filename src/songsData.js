@@ -7,7 +7,7 @@ const songsData = [
             "https://bandcamp.com/EmbeddedPlayer/track=3343540637/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
         iframeHref: "https://neidanmusicproduction.bandcamp.com/track/enigmatic-ocean",
         text: `A chilled progressive trance track inspired by the ocean and the full-moon. 
-        Rounded fat base keeps you in a mesmerized state while you will be accompanied by cool guitar riffs and tingling synts.
+        Rounded fat base keeps you in a mesmerized state while you will be accompanied by coral guitar riffs and tingling synts.
         Wait for the retro surprise at the end.`,
         genres: ["progressive", "trance", "chillgressive"]
     },
