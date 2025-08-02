@@ -2,7 +2,7 @@ const songsData = [
     {
         id: 1,
         name: "Enigmatic Ocean",
-        img: "/images/enigmatic.png",
+        img: "/images/enigmatic.jpg",
         iframeSrc:
             "https://bandcamp.com/EmbeddedPlayer/track=3343540637/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
         iframeHref: "https://neidanmusic.bandcamp.com/track/enigmatic-ocean",
@@ -14,7 +14,7 @@ const songsData = [
     {
         id: 2,
         name: "By the Creek",
-        img: "/images/bythecreek.png",
+        img: "/images/bythecreek.jpg",
         iframeSrc:
             "https://bandcamp.com/EmbeddedPlayer/track=3828105322/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
         iframeHref: "https://neidanmusic.bandcamp.com/track/by-the-creek",
@@ -25,7 +25,7 @@ const songsData = [
     {
         id: 3,
         name: "By the Creek 1 hr",
-        img: "/images/bythecreek1hr.png",
+        img: "/images/bythecreek1hr.jpg",
         iframeSrc:
             "https://bandcamp.com/EmbeddedPlayer/album=1673615873/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
         iframeHref: "https://neidanmusic.bandcamp.com/album/by-the-creek-1-hour-journey",
