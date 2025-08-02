@@ -6,8 +6,6 @@
     padding: 0;
 }
 
-
-
 body {
     text-align: center;
     font-family: Syne, sans-serif;
@@ -20,7 +18,6 @@ main {
     /*border: 1px solid red;*/
     align-items: center;
     padding: 1em;
-  
 }
 
 header {
@@ -41,7 +38,6 @@ article {
 }
 
 article {
-    
     border-radius: 13px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     overflow: hidden;
@@ -59,12 +55,65 @@ article > div {
     text-align: left;
 }
 
-article h2 {
+.name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 0.5em;
 }
 
+.buy-link {
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    animation:
+        changeColor 15s ease-in infinite,
+        growShrink 5s ease-in infinite;
+}
+
+        @keyframes changeColor {
+            0% {
+                color: #a132a1;
+            }
+            50% {
+                color: blue;
+            }
+            100% {
+                color: #a132a1;
+            }
+        }
+
+        @keyframes growShrink {
+            0% {
+                font-size: 1rem;
+            }
+            50% {
+                font-size: 1.1rem;
+            }
+            100% {
+                font-size: 1rem;
+            }
+        }
+
+.buy-link:hover,
+.buy-link:focus {
+    color: #3914ff;
+    font-size: 1.2em;
+}
+
+.buy-link > img {
+    width: 32px;
+}
+
 article p {
-    font-family: Comic Neue, cursive;
+    font-family:
+        Comic Neue,
+        cursive;
     margin-bottom: 0.5em;
 }
 
@@ -73,22 +122,20 @@ article p {
     font-weight: 600;
     font-size: 0.85rem;
     font-family: Syne;
+    animation:
+        changeColor 20s ease-in infinite;
 }
 
 .genres > span {
     font-weight: 300;
     font-style: italic;
-    
 }
-
 
 iframe {
     /*border: 1px solid red;*/
     width: 100%;
     max-width: 350px;
     height: 42px;
-    border-radius: 0 0 0 13px;
+    border-radius: 0 0 13px 13px;
     /*flex-grow: 1;*/
-    
 }
-
