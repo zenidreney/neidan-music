@@ -35,19 +35,21 @@ article {
     max-width: 920px;
     flex-wrap: wrap;
     margin-bottom: 0.5em;
-}
-
-article {
     background-color: #fffaea;
     border-radius: 13px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     overflow: hidden;
 }
 
+
+
 article > img {
     width: 100%;
     max-width: 350px;
+    /*flex-grow: 1;*/
 }
+
+
 
 article > div {
     padding: 0.85em;
