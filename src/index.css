@@ -21,10 +21,24 @@ main {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #252525;
     font-family: Syne, cursive;
     margin-bottom: 1em;
     font-size: 1.25em;
+}
+
+header iframe {
+    
+    border: 0;
+    width: 175px;
+    
+    height: 33px;
+    text-align: center;
+    
 }
 
 article {
@@ -100,7 +114,7 @@ article p {
     font-weight: 600;
     font-size: 0.85rem;
     font-family: Syne;
-    animation: changeColor 20s ease-in infinite;
+    animation: changeColor 12s ease-out infinite;
 }
 
 .genres > span {
@@ -108,7 +122,7 @@ article p {
     font-style: italic;
 }
 
-iframe {
+article iframe {
     /*border: 1px solid red;*/
     width: 100%;
     max-width: 350px;
@@ -128,7 +142,7 @@ iframe {
         color: #5600ff;
     }
     100% {
-        color: #a132a1;
+        color: #4b6a1a;
     }
 }
 
